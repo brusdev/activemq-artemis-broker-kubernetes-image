@@ -3,7 +3,7 @@ schema_version: 1
 name: "artemiscloud/activemq-artemis-broker-kubernetes"
 description: "ActiveMQ Artemis broker kubernetes container image"
 version: "1.0.24"
-from: "quay.io/artemiscloud/activemq-artemis-broker@sha256:9f635e0d86f54afe59fab377398e8703b8fe9ef1a231a03ce687052e051df432"
+from: "quay.io/brusdev/activemq-artemis-broker@sha256:ffad6baae07f70eb71f609f8d74036c98676305bf1ce137005b795c213be3318"
 
 labels:
   - name: "io.k8s.description"
